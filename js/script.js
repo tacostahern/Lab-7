@@ -3,5 +3,9 @@ function init(){
   var input = document.getElementById("entryinput")
   var button = document.getElementById("entrybutton")
   
+  button.addEventListener("click", function()
+  {
+    alert(input)
+  });
 }
 window.addEventListener('load', init);
