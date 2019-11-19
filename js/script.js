@@ -7,7 +7,7 @@ function init(){
   {
     input = document.getElementById("entryinput").value;
     alert("Tony Acosta Hernandez: " + input);
-    h2.innerHTML = "<h2>input<h2>";
+    h2.innerHTML = input;
   });
 }
 window.addEventListener('load', init);
