@@ -6,7 +6,8 @@ function init(){
   button.addEventListener("click", function()
   {
     input = document.getElementById("entryinput").value;
-    alert(input);
+    alert("Tony Acosta Hernandez: " + input);
+    h2.innerHTML = "<h2>input<h2>";
   });
 }
 window.addEventListener('load', init);
